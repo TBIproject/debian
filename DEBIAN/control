@@ -1,0 +1,9 @@
+Package: wolfeyes
+Version: 0.16.0311a
+Section: base
+Priority: optional
+Architecture: all
+Depends: build-essential, cmake, git, libgtk2.0-dev, pkg-config, libavcodec-dev, libavformat-dev, libswscale-dev, python-dev, python-numpy, python-xlib, python-tk, libtbb2, libtbb-dev, libjpeg-dev, libpng-dev, libtiff-dev, libjasper-dev, libdc1394-22-dev
+Maintainer: WolfEyesTeam
+Description: On est des génies !
+Homepage: http://infobanana/~projettbi/

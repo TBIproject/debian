@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Libs Python
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python get-pip.py
+
+sudo pip install pyuserinput
+
+rm -f get-pip.py
+
+# OpenCV
+cd /opencv-3.1.0/build
+
+cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local ..
+make -j4
+sudo make install
+rm -rf /opencv-3.1.0
